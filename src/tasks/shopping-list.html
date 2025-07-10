@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <a href="../index.html">Go back</a>
+
+    <div class="budget-container">
+      <h1>🛒 Мій список покупок</h1>
+
+      <form class="form">
+        <input type="text" id="itemName" placeholder="Назва товару" />
+
+        <input type="number" id="itemPrice" placeholder="Ціна" />
+
+        <button id="addItemBtn">Додати</button>
+      </form>
+
+      <ul id="itemList"></ul>
+
+      <h3>Загальна сума: <span id="total">0</span> грн</h3>
+    </div>
+
+    <script type="module" src="../js/shopping-list.js" defer></script>
+  </body>
+</html>
