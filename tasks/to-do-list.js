@@ -1,0 +1,2 @@
+import"./common-VxGXEh8D.js";const c=document.querySelector("#taskInput"),d=document.querySelector("#addTaskBtn"),l=document.querySelector("#taskList");d.addEventListener("click",()=>{const o=c.value.trim(),e=document.createElement("li"),t=document.createElement("span");t.textContent=o;const n=document.createElement("button");n.textContent="❌",n.addEventListener("click",()=>{e.remove()}),t.addEventListener("dblclick",()=>{t.classList.toggle("done")}),e.appendChild(t),e.appendChild(n),l.appendChild(e),c.value="",c.focus()});
+//# sourceMappingURL=to-do-list.js.map

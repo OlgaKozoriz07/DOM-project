@@ -1,0 +1,2 @@
+import"./common-VxGXEh8D.js";const t=["Ти крута 😎","Сьогодні твій день ✨","Усе вдасться ❤️","Не забувай відпочивати 🌸"],o=["#f8b400","#6a0572","#008891","#e23e57"],r=document.querySelector(".generateBtn"),c=document.querySelector(".result");r.addEventListener("click",()=>{const e=Math.floor(Math.random()*t.length),n=Math.floor(Math.random()*o.length);c.textContent=t[e],document.body.style.backgroundColor=o[n]});
+//# sourceMappingURL=generator.js.map
