@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <script type="module" crossorigin src="/DOM-project/shopping-list.js"></script>
+    <link rel="modulepreload" crossorigin href="/DOM-project/assets/common-DFK479G1.js">
+    <link rel="stylesheet" crossorigin href="/DOM-project/assets/common-CxtR8jtO.css">
+  </head>
+  <body>
+    <a href="../index.html">Go back</a>
+
+    <div class="budget-container">
+      <h1>🛒 Мій список покупок</h1>
+
+      <form class="form">
+        <input type="text" id="itemName" placeholder="Назва товару" />
+
+        <input type="number" id="itemPrice" placeholder="Ціна" />
+
+        <button id="addItemBtn">Додати</button>
+      </form>
+
+      <ul id="itemList"></ul>
+
+      <h3>Загальна сума: <span id="total">0</span> грн</h3>
+    </div>
+
+  </body>
+</html>

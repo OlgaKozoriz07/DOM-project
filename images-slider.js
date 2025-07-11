@@ -1,0 +1,2 @@
+import"./assets/common-DFK479G1.js";const e=["https://picsum.photos/id/237/400/300","https://picsum.photos/id/1074/400/300","https://picsum.photos/id/1084/400/300"],c=["Собака","Лев","Морж"],o=document.querySelector("#prevBtn"),s=document.querySelector("#nextBtn"),i=document.querySelector("#sliderImage"),r=document.querySelector("#caption");let t=0;n();function n(){i.src=e[t],r.textContent=c[t]}s.addEventListener("click",()=>{t=(t+1)%e.length,n()});o.addEventListener("click",()=>{t=(t-1+e.length)%e.length,n()});
+//# sourceMappingURL=images-slider.js.map
